@@ -1,0 +1,60 @@
+ON THE THRESHOLD OF KNOWLEDGE -- LENAT, FEIGENBAUM
+
+
+three major findings of AI to date:
+1. the knowledge principle -- if a program is to perform a complex task well, it must know a great deal about the world in which it operates
+2. the breadth hypothesis -- there are two additional abilities necessary for intelligent behavior in unexpected situations: falling back on increasingly general knowledge and analogizing to specific but far-flung knowledge
+3. AI as empirical inquiry -- must test our ideas experimentally on large problems
+
+
+
+THE KNOWLEDGE PRINCIPLE (KP):
+a system exhibits intelligent understanding and action at a high level of competence primarily because of the *specific* knowledge that it can bring to bear (make use of): the concepts, facts, representations, methods, models, metaphors, and heuristics about its domain of endeavor
+
+
+THE WELL-FORMEDNESS THRESHOLD:
+for each task there is some minimum knowledge needed for one to even formulate it
+
+
+THE COMPETENCE THRESHOLD:
+difficult tasks succumb nonlinearly to knowledge. Ther is an ever greater "payoff" to adding each piece of knowledge, up to some level of competence (eg. where an NP complete problem becomes Polynomial). Beyond that, additional knowledge is useful but no frequently needed
+
+
+
+THE TOTAL EXPERT THRESHOLD:
+eventually, almost all of the rare cases are handled as well. Continuing to add knowledge beyond this expert level is even less useful (per piece of knowledge added)
+
+
+EXPLICIT KNOWLEDGE PRINCIPLE:
+much of hte knowledge in an intelligent system needs to be represented explicitly (although compiled forms of it may also be present)
+
+
+
+* KNOWLEDGE IS ALL THERE IS HYPOTHESIS:
+no sophisticated, as-yet-unknown control structure is required for intelligent behavior; control strategies are knowledge, and a standard evaluator can apply them
+
+
+THE PHYSICAL SYMBOL SYSTEM HYPOTHESIS:
+the digital computer has sufficient means for intelligent action; to wit: representing real-world objects, actions, and relationships internally as interconnected structures of symbols, and applying symbol manipulation procedures to those structures
+
+
+THE BREADTH HYPOTHESIS (BH):
+intelligent performance often requires the problem solver to fall back on increasingly general knowlege, and/or to analogize to specific knowlege from far-flung domains
+
+
+ANALOGICAL METHOD:
+if A and B appear to have some unexplained similarities, then it's worth your time to hunt for additional shared properties
+
+
+** KNOWLEDGE FACILITATES LEARNING:
+if you don't know very much to begin with, don't expect to learn a lot quickly
+
+
+EMPIRICAL INQUIRY HYPOTHESIS (EH):
+intelligence is still so poorly understood that Nature still holds most of the important surprises in store for us. So the most profitable way to investigate AI is to embody our hypotheses in programs, and gather data by running the programs. The surprises usually suggest revisions that start the cycle over again. Progress depends on these experiments being able to falsify our hypotheses; ie. these programs must be capable of behavior not expected by the experimenter
+
+** if one builds programs which cannot possibly surprise him/her, then one is using the computer (a) as an engineering workhorse, or (b) as a fancy sort of word processor (to help articulate one's hypothesis), or , at worst, (c) as a (self-) deceptive device masquerading as an experiment
+
+
+DIFFICULT PROBLEMS HYPOTHESIS:
+there are too many ways to solve simple problems. Rainsing hte level and breadth of competence we demand of a system makes it easier to test and raise its intelligence

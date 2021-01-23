@@ -58,3 +58,29 @@ intelligence is still so poorly understood that Nature still holds most of the i
 
 DIFFICULT PROBLEMS HYPOTHESIS:
 there are too many ways to solve simple problems. Rainsing hte level and breadth of competence we demand of a system makes it easier to test and raise its intelligence
+
+- the time to perform a task often increases exponentially with its size (eg. looking ahead n moves in chess)
+-- taking a knowledge based approach may add a constant overhead but more importantly it may chip at the *exponent*
+
+- offers that there is no need - and probably not even any possiblity - of achieving a global consisten unification of a large set of Expert System's (ES's) knowledge bases (KBs) because large, broad systems need *local* consistency
+
+
+PROBLEMS AND SOLUTIONS:
+- the huge KB mandated by the Breadth Hypothesis is AI's "mattress in the road". Knowing that we can go around it one more time, AI researchers build a system in six months that will perform adequately on a narrow versino of task X; they don't pause for a decade to pull the mattress away
+
+
+- knowledge must be extracted from people, data bases, intelligent systems themselves, and nature
+
+
+
+CONCLUSION
+their assertions (in order of importance):
+- one must include *domain-specific* knowledge to solve difficult problems effectively
+- one mustg also include both very ganeral knowledge (to fall back on) and very wide-ranging knowledge (to analogize to), to cope with novel situations
+- we3 already have plenty of theories about mechanisms of intelligence; we need to proceed empirically: go off and build large testbeds for performing, analogizing, ML, NL
+- despite the progress in learning, language understanding, and other areas of AI, hand-crafting is still the fastes way to get the knowledge into the program in the 80's
+- with a large KB of facts, heuristics, and methods, the fastest way would tip toward NL, and the toward ML
+- the hand-crafting and language-based learning phases may each take about one decade, culmination in a system with human-level breadth and depth of knowledge
+
+
+they have some BIG predictions!!!

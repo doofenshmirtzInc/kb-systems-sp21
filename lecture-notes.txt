@@ -1,0 +1,13 @@
+JANUARY 26, 2021 LECTURE
+
+- much of the knowledge in an intelligent system needs to be represented explicitly. why? not sure yet but apparently he said at some other point
+
+
+- figuring out the domain of a given problem is actually one of the hardest things to do with a project.  It is easy to make it too simple or to consider too much and make it particulary complicated.
+
+PROBLEMS IN KB AI:
+1 possible "in principle" limitations
+5. how can someone interact "naturally" with kb systems?
+6. how can you combine several enterers knowledge?
+7. how can builder and user not get lost?
+.... continues

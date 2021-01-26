@@ -1,0 +1,19 @@
+Members: Jack McShane, Zachary Wilkerson, Nick Liu
+
+1. PROBLEM SELECTION: 2. How exactly do we acquire knowledge?
+
+2. PROPOSE A CONCRETE TASK CONTEXT IN WHICH TO STUDY/ASSESS THE CLAIM.
+
+   A concrete task context for the given problem could include the use of a case-based reasoning system for image recognition/classification. In addition to the base, case-based system, a deep neural network would be used to extract features from new images as they were introduced to the system and consequently incorporated into the base of knowledge contained within the system (ie. new knowledge acquisition).
+
+3. SKETCH THE BEHAVIOR OF A SYSTEM, OR ANOTHER COMPUTATIONAL STRATEGY, TO ADDRESS IT.
+
+   Images would be fed to the neural network which would, in turn, extract distinctive and defining features of the images given, whereupon the features, image and proper classification of said image, would then be added to the knowledge base of the case-based system.
+
+4. HOW COULD PERFORMANCE BE EVALUATED?
+
+   Metrics for performance evaluation could include accuracy of the classifcations given by the system, the efficiency of the system in performing classification, and the degree to which the added knowledge allows the system to restrict/reduce the state space that the system considers.
+
+5. POTENTIAL LIMITATIONS AND THE THINGS THAT WOULD BE HARD TO CAPTURE FOR THIS PARTICULAR PROBLEM AND IMPLEMENTATION OF ACQUIRING NEW KNOWLEDGE FOR A SYSTEM.
+
+   While not formally a part of this write up, the group did discuss potential limitations of the proposed system.  On one front, the use of a neural network to extract before unconsidered features could potential jeopardize the usefulness of the system if applied to particular fields (ie. the medical field (as offered during lecture)). For particular applications, it is important that one be able to explain the system and the results it produces (deep neural networks are notoriously hard to explain).  Another limitation of the proposed system for acquiring knowledge is the possibility that the neural net itself may well be inefficient when compared to other models (eg linear regressors) depending on the data given to the system and its intended use. In other words, the system may be well suited for a particular application, but may well be too fragile for applications not immediately adjacent to its original purpose.

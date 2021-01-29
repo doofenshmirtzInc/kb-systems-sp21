@@ -11,3 +11,68 @@ PROBLEMS IN KB AI:
 6. how can you combine several enterers knowledge?
 7. how can builder and user not get lost?
 .... continues
+
+
+
+
+
+JANUARY 28 2021
+
+
+key questions for kb ai
+knowledge representations
+- what forms can they take
+-what are the ramifications of different forms?
+-what are the issues and problems for KR
+k
+
+
+rule based systems fit into the bigger picture of knowledge based systems
+
+
+rule based systems
+knowledge representations:
+- primary knowledge form: if the rules, facts, hierarchies
+-primary knowledge content: deep knowledge about narrow domains
+
+knowledge acquisition/refinement
+- primary acquisition: knowledge engineer interacts with domain expert
+
+knowledge access and utilization
+- heuristic search through rules
+- matching facts in a database
+
+
+architecture:
+
+user <-> expert system shell <-> inference engine <- rule base
+			   \<-> working memory
+
+
+when theyre useful
+- for problems hard to solve conventionally (due to lack of good algorithms or computational cost)
+- problems for which knowledge plays bigger role
+
+
+
+
+if you have multiple rules that apply, how do you pick the rule to follow/take action on
+- could try each and pick the one that works best over time and stick with that
+- could choose the rule that contains the most information content for the given problem
+- can actually encode a reasoner that takes action based on expertise
+- rule ordering
+- context limiting (organize rules in groups active at different times)
+- specificity/size
+- data ordering (driven by the data/ by new information)
+- recency ordering (least recently used)
+- meta-rules
+- preference analyzer
+
+
+ordering of rules in rule based systems is dynamically determined
+
+
+
+
+these systems are very good for things like classification and diganosing conditions, but
+how can change these systems to generate things more creatively (art)?
